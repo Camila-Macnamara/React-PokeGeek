@@ -1,0 +1,91 @@
+/* Estilos para el contenedor del detalle del producto */
+.detalleProducto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  /* Título principal */
+  .detalleProducto h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Descripción del producto */
+  .detalleProducto p {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: center;
+    margin: 15px 0;
+    max-width: 600px;
+  }
+  
+  /* Precio del producto */
+  .detalleProducto h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1e7e34;
+    margin: 15px 0;
+    text-align: center;
+  }
+  
+  /* Estilo para el botón o el componente de agregar al carrito */
+  .itemCount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .itemCount button {
+    padding: 10px 20px;
+    background-color: #1e7e34;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .itemCount button:hover {
+    background-color: #155d27;
+  }
+  
+  /* Estilo para el carrito de compras */
+  .detalleProducto ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .detalleProducto li {
+    font-size: 1rem;
+    color: #444;
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  /* Estilos de responsividad */
+  @media (max-width: 768px) {
+    .detalleProducto {
+      padding: 15px;
+    }
+  
+    .detalleProducto h1 {
+      font-size: 1.8rem;
+    }
+  
+    .detalleProducto p,
+    .detalleProducto h3 {
+      font-size: 1rem;
+    }
+  }
+  

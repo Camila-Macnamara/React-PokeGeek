@@ -1,0 +1,23 @@
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .categoria-card {
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+  }
+  
+  .categoria-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .categoria-card h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
